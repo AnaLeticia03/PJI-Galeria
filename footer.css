@@ -1,0 +1,27 @@
+.rodape {
+  width: 100%;
+  float: left;
+  padding: 20px 8%;
+  background-color: rgb(63, 7, 109);
+  text-align: center;
+}
+.rodape h2 {
+  color: white;
+}
+.rodape li {
+  display: inline;
+}
+.rodape li a {
+  color: black;
+  margin-right: 12px;
+  text-decoration: none;
+  color: white;
+}
+.rodape li img {
+  width: 30px;
+  height: 30px;
+  margin: 10px 0;
+  background: #ffff;
+  border-radius: 50%;
+  background-blend-mode: darken;
+}

@@ -1,0 +1,62 @@
+.cabecalho {
+  align-items: center;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  height: 5rem;
+}
+
+.logo {
+  display: flex;
+  vertical-align: middle;
+}
+.offcanvas{
+  margin: auto 0;
+  border-radius: 0 10px 0 5%;
+  height: fit-content;
+}
+.offcanvas-header{
+  height: fit-content;
+  background: rgb(113, 12, 186);
+  color: white;
+}
+.lista-offCanvas {
+  list-style-type: none;
+  width: 100%;
+  padding: 0;
+  margin-left: 10px;
+}
+.offcanvas-body {
+  padding-left: 10px;
+  font-size: larger;
+}
+.link{
+  text-decoration: none;
+  color:rgb(113, 12, 186)
+}
+
+.lista-offCanvas-item {
+  display: block;
+  list-style: none;
+  margin-left: 50px;
+}
+
+.lista-offCanvas-item:hover {
+  background-color: rgb(113, 12, 186);
+  color: white;
+  transition: 0.2s ease;
+  border-left: solid;
+  border-width: 2rem;
+  border-color:rgb(248, 192, 8);
+}
+
+@media screen and (max-width: 500px) {
+  .logo {
+    display: none;
+  }
+  .bars {
+    text-align: center;
+  }
+}

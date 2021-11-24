@@ -1,0 +1,50 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  background: #f9fafb;
+}
+input:focus {
+  outline: 0cm;
+  box-shadow: 0 0 0 0;
+}
+.btn:focus {
+  outline: 0cm;
+  box-shadow: 0 0 0 0;
+}
+.btn {
+  background: rgb(78, 7, 130);
+  color: white;
+  border: none;
+}
+.btn:hover {
+  background: rgb(113, 12, 186);
+  cursor: pointer;
+  color: white;
+}
+.btn:active {
+  background: rgb(113, 12, 186);
+}
+.row {
+  margin: 10px;
+}
+h1 {
+  color: rgb(78, 7, 130);
+}
+ul li {
+  list-style: none;
+}
+.btn-danger{
+  background: rgb(231, 40, 40);
+  cursor: pointer;
+  color: white;
+}
+.produto{
+  opacity: 0;
+  transition:.3s;
+  transform: translateY(50px);
+}
+
+.animate{
+  opacity: 1;
+  transform: translateY(0px);
+}

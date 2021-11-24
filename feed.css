@@ -1,0 +1,12 @@
+.imagens{
+    display: flex;
+    flex-direction: column;
+}
+.desc{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.produto{
+    opacity: 1;
+}

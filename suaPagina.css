@@ -1,0 +1,41 @@
+h1{
+  display: inline-block;
+}
+
+.user-img{
+    width: 100px;
+    height: 100px;
+    margin: 2rem;
+    border-radius: 50%;
+    background: rgb(221, 210, 210);
+    padding: 10px;
+}
+#upload-imagem{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 3rem;
+}
+#upload-imagem, .produtos{
+    width: 980px;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+}
+#arquivo_label{
+    padding: 20px 10px;
+    width: 200px;
+    background-color: #333;
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 10px auto;
+    cursor: pointer;
+}
+label{
+    display: block;
+}
+.titulobloco{
+    text-align: center;
+    display: block;
+}

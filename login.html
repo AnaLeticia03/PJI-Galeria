@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Art On Haul</title>
+
+  <!-- BOOTSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="cabecalho.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="login.css">
+  <link rel="stylesheet" href="footer.css">
+</head>
+
+<body>
+  <header class="cabecalho">
+    <img class="logo responsive" src="img/logo.png" alt="logodosite" style="height: 150px;">
+    <a class="bars" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+      <img src="./img/bars-solid.png" class="response" alt="" width="40px" height="30px"
+        style="image-rendering: pixelated;">
+    </a>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title">Navegação</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+
+      <div class="offcanvas-body">
+        <ul class="lista-offCanvas">
+          <a class="link" role="button" href="./index.html">
+            <li class="lista-offCanvas-item"> Início </li>
+          </a>
+          <!-- <a class="link" role="button" href="#"> <li class="lista-offCanvas-item"> Sobre Nós </li></a> -->
+          <a class="link" role="button" href="login.html">
+            <li class="lista-offCanvas-item">Login/Cadastro </li>
+          </a>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <section class="container content ">
+    <table class="table">
+      <thead>
+          <tr>
+
+          </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class='td-login'>
+            <div class="form-login">
+              <h1 class="titulo">Login</h1>
+              <div class="login">
+                <form method="POST" action="./php/login.php" class="row gy-2 gx-3 align-items-center">
+                  <div class="col-md">
+                    <label class="visually-hidden" for="email-login">E-mail</label>
+                    <input type="text" class="form-control" id="email-login" placeholder="E-mail" name="email">
+                  </div>
+                  <div class="col-md">
+                    <label class="visually-hidden" for="senha-login">Senha</label>
+                    <div class="input-group">
+                      <div class="input-group-text">*</div>
+                      <input type="password" class="form-control" id="senha-login" placeholder="Senha" name="senha">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md">
+                      <button type="submit" class="btn btn-primary">Login</button>
+                    </div>
+      
+                </form>
+      
+              </div>
+          </div>
+          </td>
+
+          <td class="td-cadastro">
+            <div class="form-cadastro">
+              <h1 class="titulo">Cadastro</h1>
+              <div class="login">
+                <form class="row gy-2 gx-3 align-items-center" method="POST" action="./php/cadastro.php">
+                  <div class="col-md">
+                    <label class="visually-hidden" for="email-cadastro">E-mail</label>
+                    <input type="text" class="form-control" id="email-cadastro" placeholder="E-mail" name="email">
+                  </div>
+        
+                  <div class="col-md">
+                    <label class="visually-hidden" for="nome">Nome</label>
+                    <input type="text" class="form-control" id="nome" placeholder="Nome" name="nome">
+                  </div>
+        
+                  <div class="col-md">
+                    <label class="visually-hidden" for="senha-cadastro">Senha</label>
+                    <div class="input-group">
+                      <div class="input-group-text">*</div>
+                      <input type="password" class="form-control" id="senha-cadastro" placeholder="Senha" name="senha">
+                    </div>
+                  </div>
+        
+                  <div class="row">
+                    <div class="col-md">
+                      <button type="submit" class="btn btn-primary">Cadastrar</button>
+                    </div>
+                  </div>
+        
+                </form>
+              
+        
+              </div>
+            </div>
+
+          </td>
+        </tr>
+
+      </tbody>
+    </table>
+    
+
+  </section>
+    
+  <footer class="rodape" style="position: fixed; bottom: 0;">
+
+    <!-- RODAPE -->
+    <h2> Contato </h2>
+    <ul>
+      <li>
+        <a href="#" class="btn-instagram"> <img src="img/instagram.png"> </a>
+      </li>
+      <li>
+        <a href="#" class="btn-tiktok"> <img src="img/tiktok.png"> </a>
+      </li>
+      <li>
+        <a href="#" class="btn-facebook"> <img src="img/facebook.png"> </a>
+      </li>
+    </ul>
+  </footer>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

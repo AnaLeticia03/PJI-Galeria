@@ -1,0 +1,40 @@
+.bloco_pesquisa {
+  text-align: center;
+  margin: 10px 0;
+}
+#pesquisar {
+  border: solid 2px;
+  border-color: rgb(63, 7, 109);
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px;
+  width: 30%;
+}
+.dropdown {
+  margin: 10px;
+}
+
+.produtos {
+  text-align: center;
+  margin-top: 20px;
+ 
+}
+.produto {
+  display: inline-block;
+  margin-right: 10px;
+  width: 18rem;
+  border-radius: 10px;
+  margin: 5px 5px;
+}
+.produto_img {
+  height: 18rem;
+  max-width: 18rem;
+  
+  border-radius: 10px;
+}
+.card-footer{
+  width: 100%;
+}
+.card-title{
+  margin: 10px;
+}
